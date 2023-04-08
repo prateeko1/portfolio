@@ -1,0 +1,381 @@
+/* PRELOADER */
+#preloader{
+    background: white url('http://static.demilked.com/wp-content/uploads/2016/06/gif-animations-replace-loading-screen-14.gif') no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    padding: 2rem;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-brand{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.navbar .navbar-brand a{
+    max-width: 60rem;
+}
+.container-fluid img{
+    padding: 10px;
+    border-radius: 50%;
+    width: 9vh;
+    height: 9vh;
+}
+.navbar-nav a{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    margin: 0px 10px;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+.navbar-nav a:hover{
+    
+    background-color: white;
+    border-radius: 50px;
+}
+
+/* HERO */
+.main-image {
+    position: relative;
+    background: url("https://wallpapercave.com/wp/wp9220996.jpg") no-repeat center;
+    background-size: cover;
+    height: 669px;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container h1 {
+    font-family: 'Abril Fatface', serif;
+    margin: 0;
+    font-size: 66px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/08/12/16/23/thuja-7382049_960_720.jpg');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container h1 span {
+    border: 6px solid transparent;
+    border-image: url('https://cdn.pixabay.com/photo/2022/08/12/16/23/thuja-7382049_960_720.jpg') 30 repeat;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen {
+    font-family: 'Anton', sans-serif;
+    margin: 20px;
+    display: block;
+    font-size: 22px;
+    color: #dab423;
+}
+
+/* ABOUT */
+.about{
+    background-color: black;
+}
+.about h2{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 8vh;
+    color: #dab423;
+}
+.sub-head{
+    text-align: center;
+    justify-content: baseline;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50%;
+    margin: auto;
+    font-family: 'Bitter', serif;
+    color: #555;
+    padding: 2rem;
+}
+.about-me{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sub-about-me{
+    width: 90vh;
+    padding: 2rem;
+}
+.sub-head2{
+    font-weight: 700;
+    color: #dab423;
+}
+.detail{
+    padding: 2px;
+    font-size: 20px;
+    color: #555;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem; 
+}
+.skill{
+    margin-left: 20px;
+    width: 90vh;
+    padding: 2rem;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills_skill{
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 20px;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+}
+
+/* PROJECTS */
+.projects{
+    background-color: #0f1010;
+}
+.projects h2{
+    text-align: center;
+    padding-top: 8vh;
+    font-weight: 800;
+    color: #dab423;
+}
+.one{
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.project_image{
+    width: 90vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project{
+    width: 90vh;
+    margin-left: 20px;
+    padding: 2rem;
+}
+.project h3{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Playfair Display', serif;
+    color: #dab423;
+    border-bottom: 2px solid ;
+    padding: 2vh;
+}
+.project_detail{
+    padding: 2rem;
+    font-size: 20px;
+    color: #555;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem; 
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Bitter', serif;
+}
+
+.mini-project{
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* FORM */
+.contact{
+    position: relative;
+    background: url("https://wallpapercave.com/wp/wp9220996.jpg") no-repeat center;
+    background-size: cover;
+    height: 850px;
+    text-align: center;
+}
+.form{
+    padding: 2vh;
+}
+h1 {
+    font-family: 'Playfair Display',serif;
+    font-size: 59px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #dab423;
+}
+
+input,
+textarea,
+label {
+    font-family: 'Poppins',sans-serif;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #dab423;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #dab423;
+}
+
+input[type=submit] {
+    background-color: black;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+    background: #dab423;
+    color: #1b1c1e;
+}
+
+input,
+textarea {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #828282;
+}
+.link a {
+    color: #828282;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.link a:visited{
+    color: white;
+}
+.link a:hover {
+    color: #C0C0C0;
+}
+
+/* FOOTER */
+.footer{
+    height: 40vh;
+    background-color: black;
+}
+.footer .social{
+    padding: 5vh 0 2vh 0;
+}
+.footer .social a{
+    font-size: 35px;
+    color: #555;
+    padding: 2vh;
+}
+#insta:hover{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#snap:hover{
+    color: yellow;
+}
+#link:hover{
+    color: #0A66C2;
+}
+#google:hover{
+    color: white;
+}
+.footer .link{
+    padding: 2vh 0 2vh 0;
+}
+.link a{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    margin: 0px 10px;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}
+.copyright{
+    color: white;
+    padding: 2vh 0 0 0;
+    font-family: 'Playfair Display', serif;
+}
+
+/* MODAL */
+.mb{
+    left: 0;
+    top: 0;
+}
+.modal-body{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.more-img{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+.more-img::-webkit-scrollbar {
+    width: 5px;
+  }
+.more-img::-webkit-scrollbar-thumb {
+    background: #dab423;
+    border-radius: 10px;
+}
+.info p{
+    text-align: center;
+    color: white;
+    overflow-wrap: break-word;
+    padding: 2vh;
+}
+
