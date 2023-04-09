@@ -35,9 +35,11 @@
     font-size: 18px;
     transition: all ease 0.5s;
 }
+.nav-link:hover{
+    color: black !important;
+}
 .navbar-nav a:hover{
-    
-    background-color: white;
+    background-color: #ffc107;
     border-radius: 50px;
 }
 
@@ -128,6 +130,14 @@
     max-width: 60rem;
     line-height: 1.7;
     margin-bottom: 1rem; 
+}
+.detail a{
+    color: #dab423;
+    text-decoration: none;
+    transition: 0.2s e;
+}
+.detail a:hover{
+    color: #0A66C2;
 }
 .skill{
     margin-left: 20px;
@@ -329,14 +339,15 @@ textarea:focus {
     padding: 2vh 0 2vh 0;
 }
 .link a{
-    font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
     padding: 8px 10px;
     margin: 0px 10px;
     font-size: 18px;
-    color: white;
     display: inline-block;
+}
+.link a:hover{
+    color: #dab423;
 }
 .copyright{
     color: white;
